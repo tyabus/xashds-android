@@ -6,11 +6,13 @@
       android:versionName="1.1.1">
     <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="19"/>
     <!-- Set your application name here -->
-    <application android:label="XashDS" android:debuggable="true">
+    <application android:label="XashDS"
+		 android:debuggable="true"
+		 android:icon="@drawable/logo">
     <!-- Set your launcher title here -->
         <activity android:name=".DedicatedActivity"
                   android:label="XashDS"
-			android:windowSoftInputMode="adjustResize">
+		  android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
